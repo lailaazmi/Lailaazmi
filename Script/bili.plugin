@@ -1,0 +1,11 @@
+#!name = BiliBili
+#!desc = Bilibili Buka Kunci
+#!homepage = https://github.com/lailaazmi
+#!author = Lailaazmi
+#!icon=https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Script/icons/bilibili.png
+
+[Script]
+http-response ^https?:\/\/app\.bilibili\.com\/x\/v2\/account\/myinfo\? requires-body=1,script-path=https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Lailaazmi/bilibili.js
+
+[MITM]
+hostname = app.bilibili.com

@@ -1,0 +1,11 @@
+#!name = CamScanner
+#!desc = Buka Kunci Premium
+#!homepage = https://github.com/lailaazmi
+#!author = Lailaazmi
+#!icon = https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Script/icons/cs.png
+
+[Script]
+http-response https:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property\? requires-body=1, script-path=https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Lailaazmi/CamScanner.js, tag=CamScannerPremium
+
+[Mitm]
+hostname = ap*.intsig.net

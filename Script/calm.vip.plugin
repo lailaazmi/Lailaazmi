@@ -1,0 +1,11 @@
+#!name = Calm Premium
+#!desc = Buka Kunci Batasan
+#!icon = https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Script/icons/calm.png
+#!homepage = https://github.com/lailaazmi
+#!author = Lailaazmi
+
+[Script]
+http-response https://api.calm.com/(me|device|ios/receipt) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Lailaazmi/calm.vip.js
+
+[MITM]
+hostname = api.calm.com
