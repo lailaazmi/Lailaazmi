@@ -2,7 +2,7 @@
 #!desc = pemblokiran iklan
 #!homepage = https://github.com/lailaazmi
 #!author = Lailaazmi
-#!icon = https://raw.githubusercontent.com/lailaazmi/Plugin/master/icons/Advertising.png
+#!icon = https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Plugin/icons/Advertising.png
 
 [URL Rewrite]
 # Block Ads Start
