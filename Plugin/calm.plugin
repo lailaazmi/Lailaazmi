@@ -6,11 +6,6 @@
 
 [Script]
 http-response https://api.calm.com/(me|device|ios/receipt) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Json/calm.js
-
-[MITM]
-hostname = api.calm.com
-
-[Script]
 http-response https://api.calm.com/(me|device|ios/receipt) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Json/calm.vip.js
 
 [MITM]

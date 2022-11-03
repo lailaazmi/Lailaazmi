@@ -6,11 +6,6 @@
 
 [Script]
 http-request ^https?:\/\/nomo\.dafork\.com\/api\/.+ requires-body=0,script-path=https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Json/nomocam.js
-
-[MITM] 
-hostname = nomo.dafork.com
-
-[Script]
 http-request ^https?:\/\/nomo\.dafork\.com\/api\/.+ requires-body=0,script-path=https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Json/nomocam2.js
 
 [MITM] 

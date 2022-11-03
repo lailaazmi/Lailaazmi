@@ -6,11 +6,6 @@
 
 [Script]
 http-response ^https?:\/\/restore-access\.indream\.app\/restoreAccess\?id=\w+$ script-path=https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Json/nicegram.js, requires-body=true, timeout=10, tag=Nicegram Premium
-
-[MITM]
-hostname = restore-access.indream.app
-
-[Script]
 http-response ^https?:\/\/restore-access\.indream\.app\/restoreAccess\?id=\w+$ script-path=https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Json/nicegram2.js, requires-body=true, timeout=10, tag=Nicegram Premium
 
 [MITM]
