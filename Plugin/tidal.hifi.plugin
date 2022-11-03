@@ -1,0 +1,19 @@
+#!name = Tidal HiFi
+#!desc = Buka Kunci Langganan Plus
+#!homepage = https://github.com/lailaazmi
+#!author = Lailaazmi
+#!icon = https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Plugin/icons/tidal.png
+
+[Script]
+http-response ^https?:\/\/api\.tidal\.com\/v1\/users\/\d+\/subscription.+ script-path=https://raw.githubusercontent.com/yqc007/QuantumultX/master/TIDALHiFiPlusCrack.js,requires-body=1
+http-response ^https?:\/\/api\.tidal\.com\/v1\/tracks/\d+\/playbackinfopostpaywall.+ script-path=https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Json/tidal.hifi.js
+
+[MITM]
+hostname = api.tidal.com
+
+[Script]
+http-response ^https?:\/\/api\.tidal\.com\/v1\/users\/\d+\/subscription.+ script-path=https://raw.githubusercontent.com/yqc007/QuantumultX/master/TIDALHiFiPlusCrack.js,requires-body=1
+http-response ^https?:\/\/api\.tidal\.com\/v1\/tracks/\d+\/playbackinfopostpaywall.+ script-path=https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Json/tidal.hifi2.js
+
+[MITM]
+hostname = api.tidal.com

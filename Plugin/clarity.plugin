@@ -1,0 +1,16 @@
+#!name = Clarity Wallpaper
+#!desc = Buka Kunci Wallpaper
+#!homepage = https://github.com/lailaazmi
+#!author = Lailaazmi
+#!icon = https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Plugin/icons/clarity.png
+
+[Script]
+http-response ^https:\/\/claritywallpaper\.com\/clarity\/api\/(userInfo|special\/queryByCatalogAll) requires-body=1,script-path=https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Json/clarity.js
+
+[MITM]
+hostname = claritywallpaper.com
+
+
+
+
+

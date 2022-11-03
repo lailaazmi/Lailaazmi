@@ -1,0 +1,11 @@
+#!name = Musixmatch
+#!desc = Buka Kunci Langganan Premium
+#!homepage = https://github.com/lailaazmi
+#!author = Lailaazmi
+#!icon = https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Plugin/icons/musixmatch.png
+
+[Script]
+http-response https://apic.musixmatch.com/ws/1.1/config.get script-path=https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Json/musixmatch.js,requires-body=1,max-size=0
+
+[MITM]
+hostname = apic.musixmatch.com

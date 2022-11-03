@@ -1,0 +1,11 @@
+#!name = I Love PDF
+#!desc= Buka Kunci Langganan
+#!homepage = https://github.com/lailaazmi
+#!author = Lailaazmi
+#!icon = https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Plugin/icons/ilovepdf.png
+
+[Script]
+http-response https://service.ilovepdf.com/v1/user requires-body=1,script-path=https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Json/lovepdf.js
+
+[MITM]
+hostname = service.ilovepdf.com

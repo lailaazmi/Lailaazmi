@@ -1,0 +1,17 @@
+#!name = PS Express
+#!desc = Photoshop Express Premium
+#!homepage = https://github.com/lailaazmi
+#!author = Lailaazmi
+#!icon = https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Plugin/icons/photoshop.png
+
+[Script]
+http-response ^https:\/\/lcs-mobile-cops\.adobe\.io\/mobile_profile requires-body=1,script-path=https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Json/photoshop.js
+
+[MITM]
+hostname = lcs-mobile-cops.adobe.io
+
+[Script]
+http-response ^https:\/\/lcs-mobile-cops\.adobe\.io\/mobile_profile requires-body=1,script-path=https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Json/photoshop2.js
+
+[MITM]
+hostname = lcs-mobile-cops.adobe.io

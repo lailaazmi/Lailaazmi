@@ -1,0 +1,11 @@
+#!name = WallCraft
+#!desc = WallCraft Pro Seumur Hidup
+#!homepage = https://github.com/lailaazmi
+#!author = Lailaazmi
+#!icon = https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Plugin/icons/wallcraft.png
+
+[Script]
+http-response ^https?:\/\/billing-ios\.wallpaperscraft\.com\/verify_receipt\/remove_ads$ script-path=https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Json/wallcraft.js,requires-body=1,tag=WallCraft Pro
+
+[MITM]
+hostname = *.wallpaperscraft.com

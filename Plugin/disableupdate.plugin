@@ -1,0 +1,9 @@
+#!name = Blokir pembaruan iOS
+#!desc = Blokir pembaruan sistem iOS dan harus cocok dengan grup kebijakan REJECT
+#!icon = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple_Update.png
+
+[Rule]
+DOMAIN,mesu.apple.com,REJECT
+DOMAIN,gdmf.apple.com,REJECT
+DOMAIN,updates-http.cdn-apple.com,REJECT
+DOMAIN,xp.apple.com,REJECT

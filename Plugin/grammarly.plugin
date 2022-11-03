@@ -1,0 +1,11 @@
+#!name = Gramarly
+#!desc= Buka Kunci Langganan Gramarly
+#!homepage = https://github.com/lailaazmi
+#!author = Lailaazmi
+#!icon = https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Plugin/icons/grammarly.png
+
+[Script]
+http-response ^https?:\/\/subscription\.grammarly\.com\/api\/v1\/subscription$ script-path=https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Json/gramarly.js,requires-body=1,tag=Grammarly Premium
+
+[MITM]
+hostname = subscription.grammarly.com

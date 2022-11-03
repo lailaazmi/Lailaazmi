@@ -1,0 +1,11 @@
+#!name = Memrise
+#!desc = Buka Kunci Langganan Premium
+#!homepage = https://github.com/lailaazmi
+#!author = Lailaazmi
+#!icon = https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Plugin/icons/memrise.png
+
+[Script]
+http-response ^https:\/\/api\.memrise\.com\/v1\.18 requires-body=1,script-path=https://https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Json/memrise.js
+
+[MITM]
+hostname = api.memrise.com

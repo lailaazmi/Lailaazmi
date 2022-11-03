@@ -1,0 +1,11 @@
+#!name = Meitu Vip
+#!desc= Buka Kunci Langganan Vip
+#!homepage = https://github.com/lailaazmi
+#!author = Lailaazmi
+#!icon = https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Plugin/icons/meitu.png
+
+[Script]
+http-response ^https?:\/\/(h5|api)\.xiuxiu\.meitu\.com\/v\d\/(h\d\/vip|vip|user)\/ requires-body=1,script-path=https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Json/meitu.js
+
+[MITM]
+hostname = api.xiuxiu.meitu.com, h5.xiuxiu.meitu.com

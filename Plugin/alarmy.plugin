@@ -1,0 +1,11 @@
+#!name = Alarmy Premium
+#!desc = Keanggotaan alarmy tidak Terkunci
+#!icon = https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Plugin/icons/alarmy.png
+#!homepage = https://github.com/lailaazmi
+#!author = Lailaazmi
+
+[Script]
+http-response https://ars.alar.my/api/v2/user/sync script-path=https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Json/alarmy.js,requires-body=1,max-size=0
+
+[MITM]
+hostname = ars.alar.my
