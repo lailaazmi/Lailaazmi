@@ -1,0 +1,14 @@
+Package: com.lailaazmi.menustyle
+Name: Menu Style »
+Author: Lailaazmi <Lailaazmi@my.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: 
+  • Action Menu
+  • System Menu
+  • iOS Plugin »
+Maintainer: Lailaazmi <Lailaazmi@my.com>
+Depiction: https://lailaazmi.github.io/depic/web/com.lailaazmi.menustyle.html
+Icon: https://lailaazmi.github.io/laila/com.lailaazmi.menustyle/icon.png
+Section: Tweaks
+Version: 5.0
