@@ -13,7 +13,7 @@ Pernyataan penggunaan: ⚠️⚠️ Script ini hanya untuk pembelajaran dan komu
 *******************************
 [rewrite_local]
 # > Grammarly Premium
-^https?:\/\/subscription\.grammarly\.com\/api\/v1\/subscription$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/GrammarlyPremiumCrack.js
+^https?:\/\/subscription\.grammarly\.com\/api\/v1\/subscription$ url script-response-body https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Json/gramarly.js
 
 [mitm] 
 hostname = subscription.grammarly.com

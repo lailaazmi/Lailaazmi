@@ -13,7 +13,7 @@ Pernyataan penggunaan: ⚠️⚠️ Script ini hanya untuk pembelajaran dan komu
 [rewrite_local]
 
 # ～ Fimo Premium（3-11-2022）@nandhaazmi
-^https?:\/\/server\.yoyiapp\.com\/fimo-user\/user$ url script-response-body https://gitlab.com/ddgksf2013/Cuttlefish/-/raw/master/Crack/fimo.js
+^https?:\/\/server\.yoyiapp\.com\/fimo-user\/user$ url script-response-body https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Json/fimo.js
 
 [mitm] 
 

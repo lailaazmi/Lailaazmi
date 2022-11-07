@@ -14,7 +14,7 @@ Pernyataan penggunaan: ⚠️⚠️ Script ini hanya untuk pembelajaran dan komu
 
 [rewrite_local]
 
-^https:\/\/pay\.wecut\.com\/apple\/iosVerifyReceipt\.php$ url script-response-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/MolyCam.js
+^https:\/\/pay\.wecut\.com\/apple\/iosVerifyReceipt\.php$ url script-response-body https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Json/molycam.js
 
 [mitm] 
 

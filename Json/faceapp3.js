@@ -1,7 +1,7 @@
 /*
  FaceApp Buka Kunci Vip
  
-^https:\/\/api\.faceapp\.io(.*)\/api\/v.*\/auth\/user\/credentials url script-response-body https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Json/faceapp2.js
+^https:\/\/api\.faceapp\.io(.*)\/api\/v.*\/auth\/user\/credentials url script-response-body https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Json/faceapp3.js
 
 [MITM]
 hostname = api.faceapp.io

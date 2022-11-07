@@ -13,7 +13,7 @@ Pernyataan penggunaan: ⚠️⚠️ Script ini hanya untuk pembelajaran dan komu
 *******************************
 [rewrite_local]
 # > NoMo Cam Premium
-^https?:\/\/nomo\.dafork\.com\/api\/v2\/iap\/ios_verify$ url script-request-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/NoMoCamProCrack.js
+^https?:\/\/nomo\.dafork\.com\/api\/v2\/iap\/ios_verify$ url script-request-body https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Json/nomocam.js
 
 [mitm] 
 hostname = nomo.dafork.com

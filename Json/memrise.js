@@ -14,7 +14,7 @@ Pernyataan penggunaan: ⚠️⚠️ Script ini hanya untuk pembelajaran dan komu
 
 [rewrite_local]
 
-^https:\/\/api\.memrise\.com\/v1\.18 url script-response-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Memrise.js
+^https:\/\/api\.memrise\.com\/v1\.18 url script-response-body https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Json/memrise.js
 
 [mitm] 
 

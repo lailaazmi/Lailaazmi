@@ -12,7 +12,7 @@ Pernyataan penggunaan: ⚠️⚠️ Skrip ini hanya untuk pembelajaran dan komun
 *******************************
 [rewrite_local]
 # > Komunitas Madou membuka kunci semua video
-^https?:\/\/.*\/api\/app\/media\/m3u8\/.*\.m3u8 url script-request-header https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Lailaazmi/mdsqallcrack.js
+^https?:\/\/.*\/api\/app\/media\/m3u8\/.*\.m3u8 url script-request-header https://https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Json/madou.js
 
 [mitm] 
 hostname = ypmnkbb.saejeuj.com, fufxtyc.bytebwq.com, lcbnejx.dirptev.com, gcyivjc.qrneryt.com

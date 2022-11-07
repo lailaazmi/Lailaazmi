@@ -14,7 +14,7 @@ Pernyataan penggunaan: ⚠️⚠️ Script ini hanya untuk pembelajaran dan komu
 
 [rewrite_local]
 
-^https:\/\/iap\.etm\.tech\/receipts url script-response-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Collart.js
+^https:\/\/iap\.etm\.tech\/receipts url script-response-body https://https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Json/collart.js
 
 [mitm] 
 

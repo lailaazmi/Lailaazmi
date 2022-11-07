@@ -1,0 +1,13 @@
+#!name = Now Sleep
+#!desc= Buka Kunci Langganan Vip
+#!homepage = https://github.com/lailaazmi
+#!author = Lailaazmi
+#!icon = https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Plugin/icons/now.png
+
+[Script]
+http-response https://nowapi.navoinfo.cn/h2/user/* script-path=https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Json/nowponder.js,requires-body=1,max-size=0
+http-response ^https:\/\/nowapi\.navoinfo\.cn url script-response-body https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Json/nowsleep.js
+http-response https://nowapi.navoinfo.cn/h2/user/* script-path=https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Json/nowsleep.js,requires-body=1,max-size=0
+
+[MITM]
+hostname = nowapi.navoinfo.cn

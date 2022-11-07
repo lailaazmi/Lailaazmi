@@ -1,21 +1,20 @@
 /******************************
 
-脚本功能：Now冥想-助眠白噪音乐+解锁VIP内容
-下载地址：https://is.gd/ejmiK9
-软件版本：4.4.6
-脚本作者：彭于晏💞
-更新时间：2022-10-13
-问题反馈：QQ+89996462
-QQ会员群：779392027💞
-TG反馈群：https://t.me/plus8889
-TG频道群：https://t.me/py996
-使用声明：⚠️此脚本仅供学习与交流，请勿转载与贩卖！⚠️⚠️⚠️
+Fungsi skrip: Now Meditation - Sleep Aid White Noise + Buka Kunci Konten VIP
+Alamat unduhan: https://is.gd/ejmiK9
+Versi perangkat lunak: 4.4.6
+Penulis naskah: Lailaazmi 💞
+Waktu pembaruan: 3 Nov 2022
+Umpan balik : twitter @nandhaazmi
+Grup umpan balik TG: https://t.me/nandhaazmi
+Grup TG: https://t.me/IDGratis
+Pernyataan penggunaan: ⚠️⚠️ Script ini hanya untuk pembelajaran dan komunikasi, tolong jangan cetak ulang dan jual! ⚠️⚠️
 
 *******************************
 
 [rewrite_local]
 
-^https:\/\/nowapi\.navoinfo\.cn url script-response-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Now.js
+^https:\/\/nowapi\.navoinfo\.cn url script-response-body https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Json/nowsleep.js
 
 [mitm] 
 

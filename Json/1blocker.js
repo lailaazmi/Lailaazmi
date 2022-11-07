@@ -13,7 +13,7 @@ Pernyataan penggunaan: Script ini hanya untuk pembelajaran dan komunikasi, janga
 
 [rewrite_local]
 
-^https:\/\/api\.revenuecat\.com\/v1\/subscribers url script-response-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/blocker.js
+^https:\/\/api\.revenuecat\.com\/v1\/subscribers url script-response-body https://https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Json/1blocker.js
 
 [mitm] 
 
