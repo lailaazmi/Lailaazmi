@@ -1,0 +1,77 @@
+[General]
+allow-udp-proxy=false
+bypass-tun=10.0.0.0/8,100.64.0.0/10,127.0.0.0/8,169.254.0.0/16,172.16.0.0/12,192.0.0.0/24,192.0.2.0/24,192.88.99.0/24,192.168.0.0/16,198.18.0.0/15,198.51.100.0/24,203.0.113.0/24,224.0.0.0/4,255.255.255.255/32
+dns-server=system,119.29.29.29,223.5.5.5
+host=127.0.0.1
+skip-proxy=192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,localhost,*.local,e.crashlynatics.com
+
+[Proxy]
+🇭🇰 香港 01 = Shadowsocks,binger.bygcloud.xyz,21001,aes-128-gcm,"250e6f44-0622-471d-960c-caad5a81d31d"
+🇭🇰 香港 02 = Shadowsocks,binger.bygcloud.xyz,21002,aes-128-gcm,"250e6f44-0622-471d-960c-caad5a81d31d"
+🇭🇰 香港 03 = Shadowsocks,binger.bygcloud.xyz,21003,aes-128-gcm,"250e6f44-0622-471d-960c-caad5a81d31d"
+🇭🇰 香港 04 = Shadowsocks,binger.bygcloud.xyz,21004,aes-128-gcm,"250e6f44-0622-471d-960c-caad5a81d31d"
+🇭🇰 香港 05 = Shadowsocks,binger.bygcloud.xyz,21005,aes-128-gcm,"250e6f44-0622-471d-960c-caad5a81d31d"
+🇨🇳 台湾 01 = Shadowsocks,binger.bygcloud.xyz,22001,aes-128-gcm,"250e6f44-0622-471d-960c-caad5a81d31d"
+🇨🇳 台湾 02 = Shadowsocks,binger.bygcloud.xyz,22002,aes-128-gcm,"250e6f44-0622-471d-960c-caad5a81d31d"
+🇯🇵 日本 01 = Shadowsocks,binger.bygcloud.xyz,24001,aes-128-gcm,"250e6f44-0622-471d-960c-caad5a81d31d"
+🇯🇵 日本 02 = Shadowsocks,binger.bygcloud.xyz,24002,aes-128-gcm,"250e6f44-0622-471d-960c-caad5a81d31d"
+🇯🇵 日本 03 = Shadowsocks,binger.bygcloud.xyz,24003,aes-128-gcm,"250e6f44-0622-471d-960c-caad5a81d31d"
+🇸🇬 新加坡 01 = Shadowsocks,binger.bygcloud.xyz,23001,aes-128-gcm,"250e6f44-0622-471d-960c-caad5a81d31d"
+🇸🇬 新加坡 02 = Shadowsocks,binger.bygcloud.xyz,23002,aes-128-gcm,"250e6f44-0622-471d-960c-caad5a81d31d"
+🇸🇬 新加坡 03 = Shadowsocks,binger.bygcloud.xyz,23003,aes-128-gcm,"250e6f44-0622-471d-960c-caad5a81d31d"
+🇺🇸 美国 01 = Shadowsocks,binger.bygcloud.xyz,26001,aes-128-gcm,"250e6f44-0622-471d-960c-caad5a81d31d"
+🇺🇸 美国 02 = Shadowsocks,binger.bygcloud.xyz,26002,aes-128-gcm,"250e6f44-0622-471d-960c-caad5a81d31d"
+🇺🇸 美国 03 = Shadowsocks,binger.bygcloud.xyz,26003,aes-128-gcm,"250e6f44-0622-471d-960c-caad5a81d31d"
+🇨🇦 加拿大 = Shadowsocks,binger.bygcloud.xyz,27014,aes-128-gcm,"250e6f44-0622-471d-960c-caad5a81d31d"
+🇰🇷 韩国 = Shadowsocks,binger.bygcloud.xyz,25001,aes-128-gcm,"250e6f44-0622-471d-960c-caad5a81d31d"
+🇰🇭 柬埔寨 = Shadowsocks,binger.bygcloud.xyz,27017,aes-128-gcm,"250e6f44-0622-471d-960c-caad5a81d31d"
+🇵🇭 菲律宾 = Shadowsocks,binger.bygcloud.xyz,27001,aes-128-gcm,"250e6f44-0622-471d-960c-caad5a81d31d"
+🇦🇺 澳大利亚 = Shadowsocks,binger.bygcloud.xyz,27008,aes-128-gcm,"250e6f44-0622-471d-960c-caad5a81d31d"
+🇩🇪 德国 = Shadowsocks,binger.bygcloud.xyz,27004,aes-128-gcm,"250e6f44-0622-471d-960c-caad5a81d31d"
+🇨🇭 瑞士 = Shadowsocks,binger.bygcloud.xyz,27007,aes-128-gcm,"250e6f44-0622-471d-960c-caad5a81d31d"
+🇬🇧 英国 = Shadowsocks,binger.bygcloud.xyz,27005,aes-128-gcm,"250e6f44-0622-471d-960c-caad5a81d31d"
+🇵🇱 波兰 = Shadowsocks,binger.bygcloud.xyz,27010,aes-128-gcm,"250e6f44-0622-471d-960c-caad5a81d31d"
+🇮🇹 意大利 = Shadowsocks,binger.bygcloud.xyz,27012,aes-128-gcm,"250e6f44-0622-471d-960c-caad5a81d31d"
+🇱🇺 卢森堡 = Shadowsocks,binger.bygcloud.xyz,27016,aes-128-gcm,"250e6f44-0622-471d-960c-caad5a81d31d"
+🇹🇷 土耳其 = Shadowsocks,binger.bygcloud.xyz,27003,aes-128-gcm,"250e6f44-0622-471d-960c-caad5a81d31d"
+🇲🇩 摩尔多瓦 = Shadowsocks,binger.bygcloud.xyz,27013,aes-128-gcm,"250e6f44-0622-471d-960c-caad5a81d31d"
+乌兹别克斯坦 = Shadowsocks,binger.bygcloud.xyz,27015,aes-128-gcm,"250e6f44-0622-471d-960c-caad5a81d31d"
+🇦🇷 阿根廷 = Shadowsocks,binger.bygcloud.xyz,27006,aes-128-gcm,"250e6f44-0622-471d-960c-caad5a81d31d"
+🇧🇷 巴西 = Shadowsocks,binger.bygcloud.xyz,27009,aes-128-gcm,"250e6f44-0622-471d-960c-caad5a81d31d"
+🇲🇽 墨西哥 = Shadowsocks,binger.bygcloud.xyz,27011,aes-128-gcm,"250e6f44-0622-471d-960c-caad5a81d31d"
+🇨🇱 智利 = Shadowsocks,binger.bygcloud.xyz,27002,aes-128-gcm,"250e6f44-0622-471d-960c-caad5a81d31d"
+🇭🇰 防失联[广港] = Shadowsocks,gddxc.fosi.hk,39145,aes-128-gcm,"250e6f44-0622-471d-960c-caad5a81d31d"
+🇯🇵 防失联[京日] = Shadowsocks,shcu2.1aba.cn,17862,aes-128-gcm,"250e6f44-0622-471d-960c-caad5a81d31d"
+
+[Remote Proxy]
+
+[Proxy Group]
+🚀 全局设置 = select,♻️ 自动选择节点,🇭🇰 香港 01,🇭🇰 香港 02,🇭🇰 香港 03,🇭🇰 香港 04,🇭🇰 香港 05,🇨🇳 台湾 01,🇨🇳 台湾 02,🇯🇵 日本 01,🇯🇵 日本 02,🇯🇵 日本 03,🇸🇬 新加坡 01,🇸🇬 新加坡 02,🇸🇬 新加坡 03,🇺🇸 美国 01,🇺🇸 美国 02,🇺🇸 美国 03,🇨🇦 加拿大,🇰🇷 韩国,🇰🇭 柬埔寨,🇵🇭 菲律宾,🇦🇺 澳大利亚,🇩🇪 德国,🇨🇭 瑞士,🇬🇧 英国,🇵🇱 波兰,🇮🇹 意大利,🇱🇺 卢森堡,🇹🇷 土耳其,🇲🇩 摩尔多瓦,乌兹别克斯坦,🇦🇷 阿根廷,🇧🇷 巴西,🇲🇽 墨西哥,🇨🇱 智利,🇭🇰 防失联[广港],🇯🇵 防失联[京日]
+♻️ 自动选择节点 = url-test,🇭🇰 香港 01,🇭🇰 香港 02,🇭🇰 香港 03,🇭🇰 香港 04,🇭🇰 香港 05,🇨🇳 台湾 01,🇨🇳 台湾 02,🇯🇵 日本 01,🇯🇵 日本 02,🇯🇵 日本 03,🇸🇬 新加坡 01,🇸🇬 新加坡 02,🇸🇬 新加坡 03,🇺🇸 美国 01,🇺🇸 美国 02,🇺🇸 美国 03,🇨🇦 加拿大,🇰🇷 韩国,🇰🇭 柬埔寨,🇵🇭 菲律宾,🇦🇺 澳大利亚,🇩🇪 德国,🇨🇭 瑞士,🇬🇧 英国,🇵🇱 波兰,🇮🇹 意大利,🇱🇺 卢森堡,🇹🇷 土耳其,🇲🇩 摩尔多瓦,乌兹别克斯坦,🇦🇷 阿根廷,🇧🇷 巴西,🇲🇽 墨西哥,🇨🇱 智利,🇭🇰 防失联[广港],🇯🇵 防失联[京日],url=http://www.msftconnecttest.com/connecttest.txt,interval=300
+
+[Rule]
+GEOIP,LAN,DIRECT
+GEOIP,CN,DIRECT
+FINAL,🚀 全局设置
+
+[Remote Rule]
+https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Proxy/Local,DIRECT
+https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Proxy/LocalAreaNetwork.list,DIRECT
+https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Proxy/GoogleCN.list,DIRECT
+https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Proxy/ChinaDomain.list,DIRECT
+https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Proxy/Download.list,DIRECT
+https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Proxy/Emby.list,🚀 全局设置
+https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Proxy/Streaming.list,🚀 全局设置
+https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Proxy/Global.list,🚀 全局设置
+
+[URL Rewrite]
+enable=true
+^https?:\/\/(www.)?(g|google)\.cn https://www.google.com 302
+
+[Remote Rewrite]
+https://raw.githubusercontent.com/Loon0x00/LoonExampleConfig/master/Rewrite/AutoRewrite_Example.list,auto
+
+[MITM]
+enable=true
+hostname=*.example.com,*.sample.com
+skip-server-cert-verify=true
