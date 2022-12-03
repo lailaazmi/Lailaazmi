@@ -1,7 +1,6 @@
 #!name = BiliBili Iklan
 #!desc = Bilibili buka iklan
 #!icon = https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Plugin/icons/biliads.png
-#!homepage = https://github.com/lailaazmi
 #!author = Lailaazmi
 
 [MITM]
