@@ -5,6 +5,7 @@
 
 [Script]
 http-response ^https?:\/\/ios-api-2\.duolingo\.cn\/2017-06-30\/login$ requires-body=1,script-path=https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Json/duolingo.js
+http-response ^https?:\/\/ios-api-2\.duolingo\.cn\/2017-06-30\/login$ requires-body=1,script-path=https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Json/duolingo2.js
 
 [MITM]
 hostname = ios-api-2.duolingo.cn
