@@ -4,13 +4,13 @@ var obj = JSON.parse(body);
 obj.subscriber.entitlements = {
       "pro":{
               "expires_date":"2029-05-26T05:05:04Z",
-              "product_identifier":"com.neocortext.doublicatapp.pro.yearly",
+              "product_identifier":"com.ai.face.play.pro.yearly",
               "purchase_date":"2022-04-09T05:05:04Z"
       }
   },
   
 obj.subscriber.subscriptions ={
-      "com.neocortext.doublicatapp.pro.yearly":{
+      "com.ai.face.play.pro.yearly":{
               "billing_issues_detected_at":null,
               "expires_date":"2029-05-26T05:05:04Z",
               "is_sandbox":false,
