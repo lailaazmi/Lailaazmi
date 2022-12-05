@@ -1,25 +1,11 @@
-/*
- FaceApp Buka Kunci Vip
- 
-^https:\/\/api\.faceapp\.io(.*)\/api\/v.*\/auth\/user\/credentials url script-response-body https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Json/faceapp3.js
+var obj = JSON.parse($response.body);
 
-[MITM]
-hostname = api.faceapp.io
-*/
+obj = 
 
-let headers = $response.headers;
-    let status = $response.status;
-    let obj = JSON.parse($response.body);
-
-    {
-    obj = {"subscription_apple":{"subscription_exp":99999999999,"product_id":"y"},"subscription_google":null};
-    $done({body: JSON.stringify(obj)});
+{
+  "product_ids" : [
+    "pro_month"
+  ],
+  "receipt_creation_timestamp" : 1667106646
 }
-    {
-    status = 200;
-    $done({status});
-}
-    {
-    delete headers['X-FaceApp-ErrorCode'];
-    $done({headers});
-}
+$done({body: JSON.stringify(obj)});
