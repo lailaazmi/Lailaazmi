@@ -1,0 +1,10 @@
+#!name = Appraven Pro
+#!desc = Buka Kunci Langganan Pro
+#!author = Lailaazmi
+#!icon = https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Plugin/icons/appraven.png
+
+[Script]
+http-response ^https?:\/\/appraven\.net\/AppRaven\/(app|social|buy) requires-body=1,script-path=https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Json/appraven.js
+
+[MITM]
+hostname=appraven.net

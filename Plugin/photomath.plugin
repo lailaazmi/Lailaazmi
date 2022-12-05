@@ -1,0 +1,11 @@
+#!name = Photomath Pro
+#!desc= Buka Kunci Langganan Pro
+#!author = Lailaazmi
+#!icon = https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Plugin/icons/photomath.png
+
+[Script]
+http-response https://lapi.photomath.net/v4/me requires-body=1,script-path=https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Json/photomath.js
+http-response https://api.photomath.net/v4/me requires-body=1,script-path=https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Json/photomath.js
+
+[MITM]
+hostname = lapi.photomath.net, api.photomath.net
