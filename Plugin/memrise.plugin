@@ -5,6 +5,8 @@
 
 [Script]
 http-response ^https:\/\/api\.memrise\.com\/v1\.18 requires-body=1,script-path=https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Json/memrise.js
+http-response ^https:\/\/api\.memrise\.com\/v1\.18 requires-body=1,script-path=https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Json/memrise2.js
+http-response ^https:\/\/api\.memrise\.com\/v1\.18 requires-body=1,script-path=https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Json/memrise3.js
 
 [MITM]
 hostname = api.memrise.com
