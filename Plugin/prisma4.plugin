@@ -4,7 +4,7 @@
 #!icon = https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Plugin/icons/prisma.png
 
 [Script]
-http-response https://api.neuralprisma.com/receipt/ios/status/prisma/* requires-body=1,script-path=https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Json/prisma.js
+http-response https://api.neuralprisma.com/receipt/ios/status/prisma/* requires-body=1,script-path=https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Json/prisma4.js
 
 [MITM]
 hostname = api.neuralprisma.com
