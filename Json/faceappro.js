@@ -7,7 +7,7 @@ Versi perangkat lunak: Terbaru
 Penulis naskah: Lailaazmi 💞
 Waktu pembaruan: 7 Des 2022
 Umpan balik : twitter @nandhaazmi
-Grup umpan balik TG: https://t.me/nandhaazmi
+Umpan balik TG: https://t.me/nandhaazmi
 Grup TG: https://t.me/IDGratis
 Pernyataan penggunaan: ⚠️⚠️ Script ini hanya untuk pembelajaran dan komunikasi, tolong jangan cetak ulang dan jual! ⚠️⚠️
 
