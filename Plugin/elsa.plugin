@@ -1,0 +1,10 @@
+#!name = Elsa Lifetime
+#!desc= Buka Kunci Langganan Premium
+#!author = Lailaazmi
+#!icon = https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Plugin/icons/fimo.png
+
+[Script]
+http-response ^https:\/\/pool\.elsanow\.io\/user\/api\/v1\/purchase$ requires-body=1,script-path=https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Json/elsa.js
+
+[MITM]
+hostname = pool.elsanow.io
