@@ -1,10 +1,9 @@
-#!name = FaceApp
+#!name = FaceApp 5
 #!desc = Buka Kunci Langganan Pro
 #!icon = https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Plugin/icons/pixelcut.png
 
 [Script]
-http-response https://api.revenuecat.com/v1/(receipts|subscribers)/* script-path=https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Json/faceapp5.js,requires-body=1,max-size=0
-http-response ^https:\/\/api\.faceapp\.io(.*)\/api\/v.*\/auth\/user\/credentials script-path=https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Json/faceapp5.js,requires-body=1,max-size=0
+http-response ^https:\/\/api\.faceapp\.io(.*)\/api\/v.*\/auth\/user\/credentials requires-body=1,script-path=https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Json/faceapp5.js
 
 [MITM]
-hostname = api.revenuecat.com, api.faceapp.io
+hostname = api.faceapp.io
