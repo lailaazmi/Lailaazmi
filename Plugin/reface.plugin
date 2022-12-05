@@ -5,6 +5,7 @@
 
 [Script]
 http-response https://api.reface.video/api/reface/v1/iosSubscription requires-body=1,script-path=https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Json/reface.js
+http-response https://api.reface.video/api/reface/v1/iosSubscription requires-body=1,script-path=https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Json/reface2.js
 
 [MITM]
 hostname = api.revace.video
