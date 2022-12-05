@@ -1,26 +1,12 @@
-var body = $response.body;
-var obj = JSON.parse(body);
+let headers = $response.headers; 
+let obj = JSON.parse($response.body);
+ 
+obj = {"subscription_apple":{"subscription_exp":3042979200,"product_id":"y"}};  
 
-obj.subscriber.entitlements = {
-      "pro":{
-              "expires_date":"2029-05-26T05:05:04Z",
-              "product_identifier":"io.faceapp.ios.pro.yearly",
-              "purchase_date":"2022-04-09T05:05:04Z"
-      }
-  },
-  
-obj.subscriber.subscriptions ={
-      "io.faceapp.ios.pro.yearly":{
-              "billing_issues_detected_at":null,
-              "expires_date":"2029-05-26T05:05:04Z",
-              "is_sandbox":false,
-              "original_purchase_date":"2022-04-09T05:05:04Z",
-              "period_type":"trial",
-              "purchase_date":"2022-04-09T05:05:04Z",
-              "store":"app_store",
-              "unsubscribe_detected_at":null
-      }
-  }
-
-body = JSON.stringify(obj);
-$done({body});
+delete headers['X-FaceApp-ErrorCode'];
+ 
+$done({
+    body: JSON.stringify(obj),
+    headers: headers,
+    status: 200,
+});
