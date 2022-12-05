@@ -7,4 +7,4 @@
 http-response ^https?:\/\/appraven\.net\/AppRaven\/(app|social|buy) requires-body=1,script-path=https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Json/appraven.js
 
 [MITM]
-hostname=appraven.net
+hostname = appraven.net
