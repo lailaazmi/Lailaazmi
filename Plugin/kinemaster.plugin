@@ -1,0 +1,10 @@
+#!name = KineMaster Pro
+#!desc= Buka Kunci Langganan Premium
+#!author = Lailaazmi
+#!icon = https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Plugin/icons/kinemaster.png
+
+[Script]
+http-response ^https:\/\/api-kinemaster-assetstore\.nexstreaming\.com\/.*\/product\/verifyReceipt$ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Json/kinemaster.js
+
+[MITM]
+hostname = api-kinemaster-assetstore.nexstreaming.com
