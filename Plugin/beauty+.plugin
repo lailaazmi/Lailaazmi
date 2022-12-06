@@ -1,0 +1,10 @@
+#!name = BeautyPlus Vip
+#!desc = Buka Kunci Langganan Premium
+#!author = Lailaazmi
+#!icon = https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Plugin/icons/beautyplus.png
+
+[Script]
+http-response ^https:\/\/api-intl\.mr\.meitu\.com/.*/subs_offer_elg$ requires-body=1,script-path=https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Json/beautyplus.js
+
+[MITM]
+hostname = api-intl.mr.meitu.com
