@@ -1,0 +1,10 @@
+#!name = Revenuecat 3
+#!desc = Paid Premium => Pulihkan pembelian
+#!author = Lailaazmi
+#!icon = https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Plugin/icons/revenuecat.png
+
+[Script]
+http-response ^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/(\$RCAnonymousID%)?(\w)*$) script-path=https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Json/revenuecat3.js,requires-body=1,max-size=0
+
+[MITM]
+hostname = api.revenuecat.com

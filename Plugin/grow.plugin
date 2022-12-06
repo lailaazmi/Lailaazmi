@@ -1,0 +1,10 @@
+#!name = Grow Lifetime
+#!desc = Buka Kunci Langganan Pro
+#!icon = https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Plugin/icons/grow.png
+#!author = Lailaazmi
+
+[Script]
+http-response ^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/\$RCAnonymousID%3A\w{32})$ requires-body=1,script-path=https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Json/grow.js
+
+[MITM]
+hostname = api.revenuecat.com

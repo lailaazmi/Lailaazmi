@@ -1,6 +1,7 @@
 #!name = FaceApp
 #!desc = Buka Kunci Langganan Pro
 #!icon = https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Plugin/icons/faceapp.png
+#!author = Lailaazmi
 
 [Script]
 http-response ^https:\/\/api\.faceapp\.io(.*)\/api\/v.*\/auth\/user\/credentials requires-body=1,script-path=https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Json/faceappro.js
