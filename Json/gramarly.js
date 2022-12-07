@@ -1,6 +1,6 @@
 /******************************
 
-Fitur Skrip: Buka Kunci Langganan Grammarly
+Fitur Skrip: Grammarly Plus
 Versi perangkat lunak: 2.6.0
 Unduh alamat: http://t.cn/A66x3u4I
 Penulis naskah: Lailaazmi 💞
@@ -12,7 +12,7 @@ Pernyataan penggunaan: ⚠️⚠️ Script ini hanya untuk pembelajaran dan komu
 
 *******************************
 [rewrite_local]
-# > Grammarly Premium
+# Grammarly Premium
 ^https?:\/\/subscription\.grammarly\.com\/api\/v1\/subscription$ url script-response-body https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Json/gramarly.js
 
 [mitm] 

@@ -1,18 +1,18 @@
 /******************************
 
-Fungsi skrip: Buka Kunci Langganan Pro
-Versi perangkat lunak: 1.6.5
-Alamat unduhan: https://apps.apple.com/id/app/nomo-cam-point-and-shoot/id1362548649?l=id
+Fitur Skrip: NomoCam Pro
+Versi perangkat lunak: 1.5.131 atau baru
+Alamat unduhan: http://t.cn/A6xIUPmm
 Penulis naskah: Lailaazmi 💞
-Waktu pembaruan: 3 Nov 2022
+Waktu pembaruan: 7 Des 2022
 Umpan balik : twitter @nandhaazmi
-Grup umpan balik TG: https://t.me/nandhaazmi
+Umpan balik TG: https://t.me/nandhaazmi
 Grup TG: https://t.me/IDGratis
 Pernyataan penggunaan: ⚠️⚠️ Script ini hanya untuk pembelajaran dan komunikasi, tolong jangan cetak ulang dan jual! ⚠️⚠️
 
 *******************************
 [rewrite_local]
-# > NoMo Cam Premium
+# NomoCam Pro
 ^https?:\/\/nomo\.dafork\.com\/api\/v2\/iap\/ios_verify$ url script-request-body https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Json/nomocam.js
 
 [mitm] 

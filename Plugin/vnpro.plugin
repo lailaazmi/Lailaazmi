@@ -1,0 +1,10 @@
+#!name = VN Pro
+#!desc = Buka Kunci Langganan Premium
+#!icon = https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Plugin/icons/vnpro.png
+#!author = Lailaazmi
+
+[Script]
+http-response ^https?:\/\/api2\.vlognow\.me\/vn-pay\/api\/v1\/public\/iap\/receipt\/status requires-body=1,script-path=https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Json/vnpro.js
+
+[MITM]
+hostname = api2.vlognow.me

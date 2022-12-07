@@ -1,0 +1,10 @@
+#!name = VivaCut Pro
+#!desc = Berlangganan Seumur Hidup
+#!icon = https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Plugin/icons/vivacut.png
+#!author = Lailaazmi
+
+[Script]
+http-response ^https?:\/\/medi\.dxzzy321\.top\/api\/rest\/commerce\/integrate\/vip\/perform$ requires-body=1,script-path=https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Json/vivacut.js
+
+[MITM]
+hostname = medi.dxzzy321.top

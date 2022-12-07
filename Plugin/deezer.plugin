@@ -1,0 +1,10 @@
+#!name = Deezer Hi-Fi
+#!desc = Buka Kunci Langganan Plus
+#!icon = https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Plugin/icons/deezer.png
+#!author = Lailaazmi
+
+[Script]
+http-response ^https?:\/\/media\.deezer\.com\/v1\/get_url$ requires-body=1,script-path=https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Json/deezer.hifi.js
+
+[MITM]
+hostname = media.deezer.com

@@ -1,14 +1,14 @@
 /******************************
 
-脚本功能：Picsew滚动截图+解锁订阅
-下载地址：http://mtw.so/5AOWu4
-软件版本：3.8.6
-脚本作者：彭于晏
-更新时间：2022-9-2
-问题反馈：QQ+89996462
-TG群：https://t.me/plus8889
-使用声明：⚠️此脚本仅供学习与交流，请勿转载与贩卖！⚠️⚠️⚠️
-
+Fitur Skrip: Picsew Pro
+Versi perangkat lunak: 3.8.6 atau baru
+Alamat unduhan: http://mtw.so/5AOWu4
+Penulis naskah: Lailaazmi 💞
+Waktu pembaruan: 7 Des 2022
+Umpan balik : twitter @nandhaazmi
+Umpan balik TG: https://t.me/nandhaazmi
+Grup TG: https://t.me/IDGratis
+Pernyataan penggunaan: ⚠️⚠️ Script ini hanya untuk pembelajaran dan komunikasi, tolong jangan cetak ulang dan jual! ⚠️⚠️
 
 *******************************
 
@@ -18,7 +18,6 @@ TG群：https://t.me/plus8889
 
 [mitm] 
 hostname = buy.itunes.apple.com
-
 
 *******************************/
 
