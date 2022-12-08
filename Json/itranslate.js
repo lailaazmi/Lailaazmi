@@ -1,22 +1,22 @@
 /******************************
 
-脚本功能：iranslate 翻译+解锁订阅
-下载地址：https://is.gd/4QGRR6
-特别说明：如不能解锁，必须试用一次即可！
-软件版本：15.0.1
-脚本作者：彭于晏
-更新时间：2022-10-11
-问题反馈：QQ+89996462
-QQ会员群：779392027💞
-TG反馈群：https://t.me/plus8889
-TG频道群：https://t.me/py996💞
-使用声明：⚠️此脚本仅供学习与交流，请勿转载与贩卖！⚠️⚠️⚠️
+Fungsi skrip: iTranslate Pro
+Catatan Khusus: Jika tidak berhasil,
+Kamu harus mencobanya sekali lagi!
+Versi perangkat lunak: 15.0.1 atau baru
+Alamat unduhan: https://is.gd/4QGRR6
+Penulis naskah: Lailaazmi 💞
+Waktu pembaruan: 7 Des 2022
+Umpan balik : twitter @nandhaazmi
+Umpan balik TG: https://t.me/nandhaazmi
+Grup TG: https://t.me/IDGratis
+Pernyataan penggunaan: ⚠️⚠️ Script ini hanya untuk pembelajaran dan komunikasi, tolong jangan cetak ulang dan jual! ⚠️⚠️
 
 *******************************
 
 [rewrite_local]
 
-https://ssl-api.itranslateapp.com/accounts/v4/subscriptions/verify/ios url script-request-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/iTranslate.js
+https://ssl-api.itranslateapp.com/accounts/v4/subscriptions/verify/ios url script-request-body https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Json/itranslate.js
 
 [mitm] 
 

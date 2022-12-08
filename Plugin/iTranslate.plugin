@@ -1,0 +1,10 @@
+#!name = iTranslate - Lingo - Voice - Converse
+#!desc = Buka Kunci Langganan Premium
+#!icon = https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Plugin/icons/itranslate.png
+#!author = Lailaazmi
+
+[Script]
+http-response ^https:\/\/ssl-api\.itranslateapp\.com\/.*\/subscriptions\/.*\/ios$ requires-body=1,script-path=https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Json/iTranslate.js
+
+[MITM]
+hostname = ssl-api.itranslateapp.com
