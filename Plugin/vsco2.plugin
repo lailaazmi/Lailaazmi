@@ -4,8 +4,8 @@
 #!author = Lailaazmi
 
 [Script]
-http-request ^https:\/\/(api\.revenuecat\.com\/v\d\/subscribers|vsco\.co\/api\/subscriptions\/\d\.\d\/user-subscriptions)\/ script-path=https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Json/vsco.js
-http-response ^https:\/\/(api\.revenuecat\.com\/v\d\/subscribers|vsco\.co\/api\/subscriptions\/\d\.\d\/user-subscriptions)\/ requires-body=1,script-path=https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Json/vsco.js
+http-request ^https?:\/\/api\.revenuecat\.com\/v\d\/subscribers\/ script-path=https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Json/vsco.js
+http-response ^https?:\/\/api\.revenuecat\.com\/v\d\/subscribers\/ requires-body=1,script-path=https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Json/vsco.js
 
 [MITM]
-hostname = api.revenuecat.com, vsco.co
+hostname = api.revenuecat.com
