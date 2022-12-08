@@ -7,13 +7,13 @@ obj =
   "subscriber": {
     "entitlements": {
       "business": {
-        "expires_date": "2025-10-16T02:04:10Z",
+        "expires_date": "2995-05-07T02:04:10Z",
         "grace_period_expires_date": null,
         "product_identifier": "com.background.business.monthly",
         "purchase_date": "2022-10-16T01:59:10Z"
       },
       "pro": {
-        "expires_date": "2995-07-05T01:54:10Z",
+        "expires_date": "2995-05-07T01:54:10Z",
         "grace_period_expires_date": null,
         "product_identifier": "com.background.pro.yearly",
         "purchase_date": "2022-10-16T01:36:10Z"
@@ -30,7 +30,7 @@ obj =
     "subscriptions": {
       "com.background.business.monthly": {
         "billing_issues_detected_at": null,
-        "expires_date": "2995-07-05T02:04:10Z",
+        "expires_date": "2995-05-07T02:04:10Z",
         "grace_period_expires_date": null,
         "is_sandbox": true,
         "original_purchase_date": "2022-05-21T23:58:50Z",
@@ -42,7 +42,7 @@ obj =
       },
       "com.background.pro.yearly": {
         "billing_issues_detected_at": null,
-        "expires_date": "2995-07-05T01:54:10Z",
+        "expires_date": "2995-05-07T01:54:10Z",
         "grace_period_expires_date": null,
         "is_sandbox": true,
         "original_purchase_date": "2022-05-21T23:58:50Z",
