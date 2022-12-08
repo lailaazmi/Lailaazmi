@@ -1,10 +1,11 @@
-#!name = Clarity Wallpaper
+#!name = Clarity Wallpaper 5
 #!desc = Buka Kunci Wallpaper
 #!author = Lailaazmi
 #!icon = https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Plugin/icons/clarity.png
 
 [Script]
+http-response ^https:\/\/claritywallpaper\.com\/clarity\/api\/(userInfo|special\/queryByCatalogAll) requires-body=1,script-path=https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Json/clarity2.js
 http-response ^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ requires-body=1,script-path=https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Json/clarity.js
 
 [MITM]
-hostname = buy.itunes.apple.com, claritywallpaper.com
+hostname = claritywallpaper.com, buy.itunes.apple.com
