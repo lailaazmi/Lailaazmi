@@ -1,4 +1,7 @@
-{
+var body = $response.body;
+var obj = JSON.parse(body);
+
+obj = {
   "is_grace_period" : false,
   "is_valid" : true,
   "promotional_offer_id" : "",
@@ -19,5 +22,8 @@
   "expiration_date" : "2995-05-7T04:31:45Z",
   "is_trial" : false,
   "status" : "ok",
-  "processing_count" : 3
+  "processing_count" : 0
 }
+
+body = JSON.stringify(obj);
+$done({body});
