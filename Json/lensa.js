@@ -17,7 +17,7 @@ obj={
   "auto_renew_enabled" : true,
   "expiration_date_unix" : 32356792106,
   "expiration_date" : "2995-05-7T04:31:45Z",
-  "is_trial" : false,
+  "is_trial" : true,
   "status" : "ok",
   "processing_count" : 0
 }
