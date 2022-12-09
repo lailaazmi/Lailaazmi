@@ -72,7 +72,7 @@ obj= {
     "auto_renew_status": "1"
    }
   ]
- };
+ }
 
 $done({body: JSON.stringify(obj)});
 
