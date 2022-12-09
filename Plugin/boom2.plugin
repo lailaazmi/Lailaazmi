@@ -1,0 +1,10 @@
+#!name = Boom Premium
+#!desc = Boom Langganan Premium
+#!author = Lailaazmi
+#!icon = https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Plugin/icons/boom.png
+
+[Script]
+http-response ^https:\/\/apimboom2\.globaldelight\.net\/itunesreceipt_v2\.php$ requires-body=1,script-path=https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Json/boom.js
+
+[MITM]
+hostname = apimboom2.globaldelight.net
