@@ -13,16 +13,17 @@ Pernyataan penggunaan: ⚠️⚠️ Script ini hanya untuk pembelajaran dan komu
 [rewrite_local]
   
 # Boom Premium
-^https:\/\/apimboom2\.globaldelight\.net\/itunesreceipt_v2\.php$ url script-response-body https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Json/boom.js
+^https:\/\/apimboom2\.globaldelight\.net\/itunesreceipt_v2\.php$ url script-response-body https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Json/boom.vip.js
 
 [mitm] 
 hostname = apimboom2.globaldelight.net
 
 ***********************************/
 
-let obj = JSON.parse($response.body);
+var obj = JSON.parse($response.body);
 
 obj ={
+
 "status":"0",
 "receipt-data": {
 "status":0,
@@ -84,5 +85,9 @@ obj ={
 "product_id":"com.globaldelight.iBoom.LifetimeDiscountPack",
 "original_transaction_id":"470000445785125",
 "auto_renew_product_id":"com.globaldelight.iBoom.LifetimeDiscountPack",
-"auto_renew_status":"0"}]}};
+"auto_renew_status":"0"
+    }
+  ]}
+};
+
 $done({body: JSON.stringify(obj)});
