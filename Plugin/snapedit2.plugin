@@ -1,0 +1,10 @@
+#!name = SnapEdit Pro
+#!desc = Buka Kunci Langganan Premium
+#!icon = https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Plugin/icons/snapedit.png
+#!author = Lailaazmi
+
+[Script]
+http-response ^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ requires-body=1,script-path=https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Json/snapedit2.js
+
+[MITM]
+hostname = buy.itunes.apple.com
