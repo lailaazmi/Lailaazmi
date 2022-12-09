@@ -22,8 +22,7 @@ obj= {
    "original_purchase_date_ms": "1571967834000",
    "original_purchase_date_pst": "2019-10-24 18:43:54 America/Los_Angeles",
    "original_application_version": "1.4.70002",
-   "in_app": [
-    {
+   "in_app": {
      "quantity": "1",
      "product_id": "com.globaldelight.iBoom.7DayFree1YearIntroPack",
      "transaction_id": "20000617694038",
@@ -41,10 +40,8 @@ obj= {
      "is_trial_period": "true",
      "is_in_intro_offer_period": "false"
     }
-   ]
   },
-  "latest_receipt_info": [
-   {
+  "latest_receipt_info": {
     "quantity": "1",
     "product_id": "com.globaldelight.iBoom.7DayFree1YearIntroPack",
     "transaction_id": "20000617694038",
@@ -62,18 +59,14 @@ obj= {
     "is_trial_period": "true",
     "is_in_intro_offer_period": "false",
     "subscription_group_identifier": "20461753"
-   }
-  ],
-  "pending_renewal_info": [
-   {
+   },
+  "pending_renewal_info": {
     "auto_renew_product_id": "com.globaldelight.iBoom.7DayFree1YearIntroPack",
     "original_transaction_id": "20000617694038",
     "product_id": "com.globaldelight.iBoom.7DayFree1YearIntroPack",
     "auto_renew_status": "1"
    }
-  ]
  }
+}
 
 $done({body: JSON.stringify(obj)});
-
-// Descriptions
