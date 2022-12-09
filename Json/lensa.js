@@ -1,22 +1,26 @@
 var obj = JSON.parse($response.body);
 
 obj={
-  "status": "ok",
-  "is_valid": true,
-  "expiration_date": "2099-12-01T03:51:32Z",
-  "is_trial": false,
-  "processing_count": 5,
-  "is_introductory_used": true,
-  "product_id": "",
-  "promotional_offer_id": "",
-  "is_grace_period": false,
-  "auto_renew_enabled": true,
-  "is_in_billing_retry_period": false,
-  "subscription_type": "annual",
-  "platform": "ios",
-  "device_user_info": {
-    "auth_type": "",
-    "subscription_valid": true
-  }
+  
+  "is_grace_period" : false,
+  "is_valid" : true,
+  "promotional_offer_id" : "",
+  "is_in_billing_retry_period" : false,
+  "is_introductory_used" : true,
+  "device_user_info" : {
+    "subscription_valid" : true,
+    "auth_type" : "apple",
+  },
+  "subscription_type" : "annual",
+  "platform" : "ios",
+  "product_id" : "premium.discount.annual",
+  "auto_renew_enabled" : true,
+  "expiration_date_unix" : 32356792106,
+  "expiration_date" : "2025-05-7T04:31:45Z",
+  "is_trial" : false,
+  "status" : "ok",
+  "processing_count" : 0
 }
+
+
 $done({body: JSON.stringify(obj)});
