@@ -16,7 +16,7 @@ obj={
   "product_id" : "premium.discount.annual",
   "auto_renew_enabled" : true,
   "expiration_date_unix" : 32356792106,
-  "expiration_date" : "2025-05-7T04:31:45Z",
+  "expiration_date" : "2995-05-7T04:31:45Z",
   "is_trial" : false,
   "status" : "ok",
   "processing_count" : 0
