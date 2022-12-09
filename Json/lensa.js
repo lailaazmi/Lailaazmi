@@ -1,26 +1,19 @@
-var obj = JSON.parse($response.body);
-
-obj={
-  
-  "is_grace_period" : false,
-  "is_valid" : true,
-  "promotional_offer_id" : "",
-  "is_in_billing_retry_period" : false,
-  "is_introductory_used" : true,
-  "device_user_info" : {
-    "subscription_valid" : true,
-    "auth_type" : "apple",
-  },
-  "subscription_type" : "annual",
-  "platform" : "ios",
-  "product_id" : "premium.discount.annual",
-  "auto_renew_enabled" : true,
-  "expiration_date_unix" : 32356792106,
-  "expiration_date" : "2995-05-7T04:31:45Z",
-  "is_trial" : true,
-  "status" : "ok",
-  "processing_count" : 0
-}
-
-
+var obj = JSON.parse($response.body); 
+ obj['is_grace_period'] = false;
+ obj['is_valid'] = true;
+ obj['promotional_offer_id'] = "";
+ obj['is_in_billing_retry_period'] = false;
+ obj['is_introductory_used'] = true;
+ obj['device_user_info'] = {
+ obj['subscription_valid'] = true;
+ obj['auth_type'] = "apple";
+ obj['subscription_type'] = "annual";
+ obj['platform'] = "ios";
+ obj['product_id'] = "premium.discount.annual";
+ obj['auto_renew_enabled'] = true;
+ obj['expiration_date_unix'] = "32356792106";
+ obj['expiration_date'] = "2995-05-7T04:31:45Z";
+ obj['is_trial'] = false;
+ obj['status'] = "ok";
+ obj['processing_count'] = 0;
 $done({body: JSON.stringify(obj)});
