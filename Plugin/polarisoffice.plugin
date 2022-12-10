@@ -1,0 +1,10 @@
+#!name = Polaris Office Pro
+#!desc = Buka Kunci Langganan Premium
+#!icon = https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Plugin/icons/polarisoffice.png
+#!author = Lailaazmi
+
+[Script]
+http-response ^https?:\/\/api\.polarisoffice\.com\/api\/1\/account\/userinfo$ requires-body=1,script-path=https://https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Json/polarisoffice.js
+
+[MITM]
+hostname = api.polarisoffice.com
