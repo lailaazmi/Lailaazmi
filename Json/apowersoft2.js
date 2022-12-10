@@ -21,14 +21,12 @@ hostname = gw.aoscdn.com
 
 *******************************/
 
-var body = $response.body
-    .replace(/\"is_activated\":\d/g, "\"is_activated\":1")
-    .replace(/\"remain_days\":\d+/g, "\"remain_days\":666666")
-    .replace(/\"will_expire\":\d/g, "\"will_expire\":0")
-    .replace(/\"vip_special\":\d/g, "\"vip_special\":1")
-    .replace(/\"is_lifetime\":\d/g, "\"is_lifetime\":1")
-    .replace(/\"expired_at\":\d+/g, "\"expired_at\":32356792106")
-    .replace(/\"expire_time\":\".*?\"/g, "\"expire_time\":\"2995-05-07\"");
-$done({
-    body
-});
+var obj = JSON.parse($response.body); 
+ obj['is_activated'] = true;
+ obj['remain_days'] = '666666';
+ obj['will_expire'] = '0';
+ obj['vip_special'] = true;
+ obj['is_lifetime'] = true;
+ obj['expired_at'] = '32356792106';
+ obj['expire_time'] = '2995-05-07T04:31:45Z';
+$done({body: JSON.stringify(obj)});
