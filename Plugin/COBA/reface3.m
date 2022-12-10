@@ -1,1 +1,0 @@
-^https:\/\/api\.reface\.video\/api\/reface\/v1\/iosSubscription
