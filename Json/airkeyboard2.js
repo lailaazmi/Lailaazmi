@@ -85,4 +85,4 @@ var objc = JSON.parse($response.body);
 "latest_receipt" : "5L2c6ICF77ya5rWl6L275bCYIAoK5pu05aSa56C06Kej6KeE5YiZ6I635Y+W77yaCgpUR+e+pOe7hO+8mmh0dHBzOi8vdC5tZS95cWNfNzc3ClRH6aKR6YGT77yaaHR0cHM6Ly90Lm1lL3lxY18xMjMKCuKaoO+4j+KaoO+4j+KaoO+4j+a1pei9u+WwmENyYWNrIOS7heS+m+WtpuS5oOS4juS6pOa1gSDor7fli7\/ovazovb3kuI7otKnljZbvvIE="
 };
 
-$done({ body : JSON.stringify(objc) });
+$done({body:JSON.stringify(objc)});
