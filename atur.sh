@@ -18,10 +18,6 @@ echo
 
 git push
 
-"lailaazmi"
-
-"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"
-
 echo
 
 git pull
