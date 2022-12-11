@@ -4,7 +4,7 @@
 #!author = Lailaazmi
 
 [Script]
-http-response ^https?:\/\/api\.pico\.bendingspoonsapps\.com\/v4\/events$ requires-body=1,script-path=https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Json/reminiweb.js
+http-response ^https?:\/\/api\.pico\.bendingspoonsapps\.com\/v4\/events$ requires-body=1,script-path=https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Json/remini2.js
 
 [MITM]
 hostname = api.pico.bendingspoonsapps.com
