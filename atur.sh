@@ -18,9 +18,9 @@ echo
 
 git push
 
-lailaazmi
+"lailaazmi"
 
-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
+"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"
 
 echo
 
