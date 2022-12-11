@@ -18,11 +18,7 @@ echo
 
 git push
 
-echo
-
 lailaazmi
-
-echo
 
 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
 
