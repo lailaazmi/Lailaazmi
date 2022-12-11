@@ -1,0 +1,10 @@
+#!name = Mojo 6
+#!desc = Buka Kunci Langganan Pro
+#!author = Lailaazmi
+#!icon = https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Plugin/icons/mojo.png
+
+[Script]
+http-response https://api.revenuecat.com/v1/(receipts|subscribers)/* requires-body=1,script-path=https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Json/mojo6.js
+
+[MITM]
+hostname = api.revenuecat.com
