@@ -1,0 +1,11 @@
+#!name = VSCO Pro
+#!desc = Buka Kunci Langganan Vip
+#!icon = https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Plugin/icons/vsco.png
+#!author = Lailaazmi
+
+[Script]
+http-request ^https:\/\/(api\.revenuecat\.com\/v\d\/subscribers|vsco\.co\/api\/subscriptions\/\d\.\d\/user-subscriptions)\/ script-path=https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Json/vsco.vip.js
+http-response ^https:\/\/(api\.revenuecat\.com\/v\d\/subscribers|vsco\.co\/api\/subscriptions\/\d\.\d\/user-subscriptions)\/ requires-body=1,script-path=https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Json/vsco.vip.js
+
+[MITM]
+hostname = api.revenuecat.com, vsco.co
