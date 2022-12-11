@@ -4,7 +4,7 @@
 #!author = Lailaazmi
 
 [Script]
-http-response ^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/.{36}|subscribers\/\w{14})$ requires-body=1,script-path=https://https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Json/sparkmail.js
+http-response ^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/.{36}|subscribers\/\w{14})$ requires-body=1,script-path=https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Json/sparkmail.js
 
 [MITM]
 hostname = api.revenuecat.com
