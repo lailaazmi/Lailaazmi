@@ -1,0 +1,10 @@
+#!name = RevenueCat Pro
+#!desc = RevenueCat Pro => Pulihkan pembelian
+#!author = Lailaazmi
+#!icon = https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Plugin/icons/revenuecat.png
+
+[Script]
+http-response https://api.revenuecat.com/v1/(receipts|subscribers)/* requires-body=1,script-path=https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Json/revenuecat.pro.js
+
+[MITM]
+hostname = api.revenuecat.com
