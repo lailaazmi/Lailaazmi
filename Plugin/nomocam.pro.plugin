@@ -1,0 +1,10 @@
+#!name = Nomo Cam Pro
+#!desc = Buka Kunci Langganan Pro
+#!author = Lailaazmi
+#!icon = https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Plugin/icons/nomocam.png
+
+[Script]
+http-response ^https:\/\/nomo\.dafork\.com\/api\/v2\/iap\/ios_product_list requires-body=1,script-path=https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Json/nomo.pro.js
+
+[MITM] 
+hostname = nomo.dafork.com
