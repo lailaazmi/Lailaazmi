@@ -20,7 +20,7 @@ obj =
     "non_subscriptions": {
       "blocker.ios.iap.lifetime": [{
         "id": "f5cb49282e",
-        "is_sandbox": true,
+        "is_sandbox": false,
         "original_purchase_date": "2022-11-29T23:27:56Z",
         "purchase_date": "2022-11-29T23:27:56Z",
         "store": "app_store"

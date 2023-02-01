@@ -1,0 +1,10 @@
+#!name = 1Blocker
+#!desc = 1Blocker Buka kunci anggota
+#!author = Lailaazmi
+#!icon = https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Plugin/icons/1blocker.png
+
+[Script]
+http-response ^https:\/\/api\.revenuecat\.com\/v1\/subscribers requires-body=1,script-path=https://raw.githubusercontent.com/lailaazmi/Lailaazmi/master/Json/1blocker.pro.js
+
+[MITM]
+hostname = api.revenuecat.com

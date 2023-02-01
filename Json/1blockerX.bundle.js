@@ -10,7 +10,7 @@ obj =
       "premium": {
         "expires_date": null,
         "grace_period_expires_date": null,
-        "product_identifier": "blocker.ios.iap.lifetime",
+        "product_identifier": "blocker.ios.iap.lifetime.x",
         "purchase_date": "2022-11-29T23:27:56Z"
       }
     },
@@ -18,9 +18,9 @@ obj =
     "last_seen": "2022-11-29T23:25:51Z",
     "management_url": null,
     "non_subscriptions": {
-      "blocker.ios.iap.lifetime": [{
+      "blocker.ios.iap.lifetime.x": [{
         "id": "f5cb49282e",
-        "is_sandbox": true,
+        "is_sandbox": false,
         "original_purchase_date": "2022-11-29T23:27:56Z",
         "purchase_date": "2022-11-29T23:27:56Z",
         "store": "app_store"
@@ -30,7 +30,7 @@ obj =
     "original_application_version": "1.0",
     "original_purchase_date": "2013-08-01T07:00:00Z",
     "other_purchases": {
-      "blocker.ios.iap.lifetime": {
+      "blocker.ios.iap.lifetime.x": {
         "purchase_date": "2022-11-29T23:27:56Z"
       }
     },
